@@ -1,5 +1,3 @@
-from pkg_resources import compatible_platforms
-
 
 def cria_conta(numero, titular, saldo, limite):
    conta = {"numero": numero, "titular": titular, "saldo": saldo, "limite": limite}
@@ -17,4 +15,3 @@ saldo = 1000.0
 limite = 1000.0
 conta = cria_conta(numero,titular,saldo,limite)
 extrato(conta)
-""
